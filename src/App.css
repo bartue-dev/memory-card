@@ -1,0 +1,55 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 10px;
+}
+
+.image-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.loader-container {
+  margin: auto;
+}
+
+.score-container {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-container .score-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.score-container .score-box h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.score-container .score-box h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.score-container .score-box .score-item {
+  justify-items: center;
+  align-content: center;
+}
